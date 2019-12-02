@@ -122,8 +122,13 @@
               "devServerTarget": "ng-unix-cli:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "ng-unix-cli"
 }
